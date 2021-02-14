@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="#004d40">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shadow"
+        android:elevation="15dp"
+        android:clickable="true"
+        android:padding="5dp"
+        android:id="@+id/newfuel">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_fuel"
+            android:tint="#00363a" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Yeni Kayıt Bilgisi"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_arrow"
+            android:tint="#00363a" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:clickable="true"
+        android:background="@drawable/shadow">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_history"
+            android:tint="#00363a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Geçmiş Dönem Alımlar"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:tint="#00363a"
+            android:src="@drawable/ic_arrow"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/statistic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:clickable="true"
+        android:background="@drawable/shadow">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_statistic"
+            android:tint="#00363a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="İstatistik"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:tint="#00363a"
+            android:src="@drawable/ic_arrow"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/voiceAssistant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:clickable="true"
+        android:background="@drawable/shadow">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_mic"
+            android:tint="#00363a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Sesle Kontrol"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:tint="#00363a"
+            android:src="@drawable/ic_arrow"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:elevation="15dp"
+        android:clickable="true"
+        android:background="@drawable/shadow">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_settings"
+            android:tint="#00363a"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Ayarlar"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:tint="#00363a"
+            android:src="@drawable/ic_arrow"/>
+
+    </LinearLayout>
+
+</LinearLayout>
